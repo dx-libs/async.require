@@ -1,0 +1,44 @@
+{
+  "name": "@dx-libs/async.require",
+  "version": "0.0.2",
+  "description": "Asynchronous module loader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc mocha -g tests\\/.+Test\\\\.js --reporter spec",
+    "eslint": "eslint **/*.js"
+  },
+  "engines": {
+    "node": ">=8.9.3",
+    "npm": ">=5.5.1"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "require",
+    "load",
+    "module",
+    "multiple"
+  ],
+  "author": "dxTeam <team@daax.com.ar>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.4.1"
+  },
+  "dependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dx-libs/async.require.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dx-libs/async.require/issues"
+  },
+  "homepage": "https://github.com/dx-libs/async.require#readme"
+}
